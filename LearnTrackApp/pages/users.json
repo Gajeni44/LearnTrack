@@ -1,0 +1,20 @@
+[
+    {
+        "username": "headmaster",
+        "password": "head01",
+        "role": "principal",
+        "redirect": "principal.php"
+    },
+    {
+        "username": "admin010",
+        "password": "012345",
+        "role": "admin",
+        "redirect": "admin.php"
+    },
+    {
+        "username": "teacher01",
+        "password": "password123",
+        "role": "teacher",
+        "redirect": "teacher.php"
+    }
+]
