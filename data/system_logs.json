@@ -1,0 +1,146 @@
+[
+    {
+        "timestamp": "2026-08-17 17:18:15",
+        "user": "Edge Zwane",
+        "role": "school_admin",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-17 16:18:56",
+        "user": "System Admin",
+        "role": "sys_admin",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-17 16:17:12",
+        "user": "Edge Zwane",
+        "role": "school_admin",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-17 13:14:53",
+        "user": "Seer Sima",
+        "role": "principal",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-17 13:14:01",
+        "user": "Lebo Mbambo",
+        "role": "teacher",
+        "action": "New week register created by Lebo Mbambo for class: Grade 6"
+    },
+    {
+        "timestamp": "2026-08-17 13:12:22",
+        "user": "Lebo Mbambo",
+        "role": "teacher",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-17 13:04:53",
+        "user": "Edge Zwane",
+        "role": "school_admin",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-17 10:09:58",
+        "user": "System Admin",
+        "role": "sys_admin",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-17 08:42:22",
+        "user": "Seer Sima",
+        "role": "principal",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-16 19:29:28",
+        "user": "Edge Zwane",
+        "role": "school_admin",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-16 19:24:40",
+        "user": "System Admin",
+        "role": "sys_admin",
+        "action": "Backup created: backups\/backup_2026-08-16_19-24-40.json by System Admin"
+    },
+    {
+        "timestamp": "2026-08-16 19:23:45",
+        "user": "System Admin",
+        "role": "sys_admin",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-16 19:18:47",
+        "user": "Seer Sima",
+        "role": "principal",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-16 19:11:55",
+        "user": "Lebo Mbambo",
+        "role": "teacher",
+        "action": "New week register created by Lebo Mbambo for class: Grade 6"
+    },
+    {
+        "timestamp": "2026-08-16 17:52:38",
+        "user": "Lebo Mbambo",
+        "role": "teacher",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-16 17:14:28",
+        "user": "Seer Sima",
+        "role": "principal",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-16 17:12:13",
+        "user": "System Admin",
+        "role": "sys_admin",
+        "action": "New user created: Seer Sima with role: principal by System Admin"
+    },
+    {
+        "timestamp": "2026-08-16 17:09:52",
+        "user": "System Admin",
+        "role": "sys_admin",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-15 18:02:43",
+        "user": "Edge Zwane",
+        "role": "school_admin",
+        "action": "Registered new learner: Jr Mabunda"
+    },
+    {
+        "timestamp": "2026-08-15 18:00:45",
+        "user": "Edge Zwane",
+        "role": "school_admin",
+        "action": "Teacher Lebo Mbambo added by Edge Zwane"
+    },
+    {
+        "timestamp": "2026-08-15 17:45:58",
+        "user": "Edge Zwane",
+        "role": "school_admin",
+        "action": "User logged in successfully"
+    },
+    {
+        "timestamp": "2026-08-15 17:44:31",
+        "user": "System Admin",
+        "role": "sys_admin",
+        "action": "New user created: Edge Zwane with role: school_admin by System Admin"
+    },
+    {
+        "timestamp": "2026-08-15 11:31:11",
+        "user": "System Admin",
+        "role": "sys_admin",
+        "action": "New school registered: Hibemanda Primary School by System Admin"
+    },
+    {
+        "timestamp": "2026-08-15 10:45:29",
+        "user": "System Admin",
+        "role": "sys_admin",
+        "action": "Contact details updated by System Admin"
+    }
+]

@@ -1,0 +1,233 @@
+{
+    "timestamp": "2026-08-16_19-24-40",
+    "created_by": "System Admin",
+    "users": [
+        {
+            "id": 1,
+            "name": "System Admin",
+            "email": "admin@learntrack.com",
+            "password": "admin123",
+            "role": "sys_admin"
+        },
+        {
+            "id": 1786815871,
+            "name": "Edge Zwane",
+            "email": "admin.hibemandla@gmail.com",
+            "password": "Himadmin@02",
+            "role": "school_admin",
+            "school_id": "1786793471"
+        },
+        {
+            "id": 1786816845,
+            "name": "Lebo Mbambo",
+            "teacher_id": "21546",
+            "employee_number": "202322458",
+            "email": "lebu@gmail.com",
+            "phone": "0768942688",
+            "password": "Mbambo12",
+            "role": "teacher",
+            "grade_assigned": "Grade 6",
+            "subjects": [
+                "Mathematics",
+                "English",
+                "Science",
+                "Social Studies"
+            ],
+            "status": "active"
+        },
+        {
+            "id": 1786900333,
+            "name": "Seer Sima",
+            "email": "princ.hibemandla@gmail.com",
+            "password": "123456",
+            "role": "principal",
+            "school_id": "1786793471"
+        }
+    ],
+    "learners": [
+        {
+            "id": 1786816962,
+            "first_name": "Jr",
+            "last_name": "Mabunda",
+            "class": "Grade 6",
+            "parent_name": "Solly Mabunda",
+            "parent_phone": "0745559874",
+            "parent_email": "solly@gmail.com",
+            "parent_address": "STAND NO034, LILLYDALE ",
+            "relationship": "Father",
+            "status": "active"
+        }
+    ],
+    "marks": [],
+    "attendance": [],
+    "weekly_registers": [
+        {
+            "id": 1786907514,
+            "week_number": "2026-33",
+            "class": "Grade 6",
+            "created_date": "2026-08-16",
+            "created_by": "Lebo Mbambo",
+            "archived": false,
+            "attendance": {
+                "Monday": [],
+                "Tuesday": [],
+                "Wednesday": [],
+                "Thursday": [],
+                "Friday": []
+            }
+        }
+    ],
+    "announcements": [],
+    "system_logs": [
+        {
+            "timestamp": "2026-08-16 19:23:45",
+            "user": "System Admin",
+            "role": "sys_admin",
+            "action": "User logged in successfully"
+        },
+        {
+            "timestamp": "2026-08-16 19:18:47",
+            "user": "Seer Sima",
+            "role": "principal",
+            "action": "User logged in successfully"
+        },
+        {
+            "timestamp": "2026-08-16 19:11:55",
+            "user": "Lebo Mbambo",
+            "role": "teacher",
+            "action": "New week register created by Lebo Mbambo for class: Grade 6"
+        },
+        {
+            "timestamp": "2026-08-16 17:52:38",
+            "user": "Lebo Mbambo",
+            "role": "teacher",
+            "action": "User logged in successfully"
+        },
+        {
+            "timestamp": "2026-08-16 17:14:28",
+            "user": "Seer Sima",
+            "role": "principal",
+            "action": "User logged in successfully"
+        },
+        {
+            "timestamp": "2026-08-16 17:12:13",
+            "user": "System Admin",
+            "role": "sys_admin",
+            "action": "New user created: Seer Sima with role: principal by System Admin"
+        },
+        {
+            "timestamp": "2026-08-16 17:09:52",
+            "user": "System Admin",
+            "role": "sys_admin",
+            "action": "User logged in successfully"
+        },
+        {
+            "timestamp": "2026-08-15 18:02:43",
+            "user": "Edge Zwane",
+            "role": "school_admin",
+            "action": "Registered new learner: Jr Mabunda"
+        },
+        {
+            "timestamp": "2026-08-15 18:00:45",
+            "user": "Edge Zwane",
+            "role": "school_admin",
+            "action": "Teacher Lebo Mbambo added by Edge Zwane"
+        },
+        {
+            "timestamp": "2026-08-15 17:45:58",
+            "user": "Edge Zwane",
+            "role": "school_admin",
+            "action": "User logged in successfully"
+        },
+        {
+            "timestamp": "2026-08-15 17:44:31",
+            "user": "System Admin",
+            "role": "sys_admin",
+            "action": "New user created: Edge Zwane with role: school_admin by System Admin"
+        },
+        {
+            "timestamp": "2026-08-15 11:31:11",
+            "user": "System Admin",
+            "role": "sys_admin",
+            "action": "New school registered: Hibemanda Primary School by System Admin"
+        },
+        {
+            "timestamp": "2026-08-15 10:45:29",
+            "user": "System Admin",
+            "role": "sys_admin",
+            "action": "Contact details updated by System Admin"
+        }
+    ],
+    "schools": [
+        {
+            "id": 1786793471,
+            "name": "Hibemanda Primary School",
+            "emis_number": "1244784",
+            "address": "STAND NO034, LILLYDALE",
+            "telephone": "0608726842",
+            "email": "tshwarelon8@gmail.com",
+            "principal_name": "Sima Khoza",
+            "slogan": "Good School",
+            "logo": "uploads\/school_logos\/1786793471_355512.jpg",
+            "created_date": "2026-08-15",
+            "status": "active"
+        }
+    ],
+    "roles": {
+        "sys_admin": {
+            "name": "System Administrator",
+            "permissions": [
+                "view_dashboard",
+                "manage_teachers",
+                "manage_learners",
+                "mark_attendance",
+                "view_attendance_history",
+                "manage_grades",
+                "view_academic_performance",
+                "manage_announcements",
+                "manage_users",
+                "manage_roles",
+                "backup_restore",
+                "manage_security",
+                "view_system_logs",
+                "manage_schools"
+            ]
+        },
+        "school_admin": {
+            "name": "School Administrator",
+            "permissions": [
+                "view_dashboard",
+                "manage_teachers",
+                "manage_learners",
+                "mark_attendance",
+                "view_attendance_history",
+                "manage_grades",
+                "view_academic_performance",
+                "manage_announcements"
+            ]
+        },
+        "principal": {
+            "name": "Principal",
+            "permissions": [
+                "view_dashboard",
+                "manage_teachers",
+                "manage_learners",
+                "mark_attendance",
+                "view_attendance_history",
+                "manage_grades",
+                "view_academic_performance",
+                "manage_announcements"
+            ]
+        },
+        "teacher": {
+            "name": "Teacher",
+            "permissions": [
+                "view_dashboard",
+                "manage_learners",
+                "mark_attendance",
+                "view_attendance_history",
+                "manage_grades"
+            ]
+        }
+    }
+}

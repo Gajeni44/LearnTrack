@@ -1,0 +1,84 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #3498db;
+    --text-light: #ecf0f1;
+    --sidebar-width: 260px;
+}
+
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Login Page Styles */
+.login-body {
+    background: var(--primary-color);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card {
+    width: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Sidebar Styling */
+.sidebar {
+    height: 100vh;
+    width: var(--sidebar-width);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    padding-top: 20px;
+    color: white;
+}
+
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 20px;
+}
+
+.sidebar .list-group-item {
+    background: transparent;
+    color: var(--text-light);
+    border: none;
+    padding: 15px 25px;
+}
+
+.sidebar .list-group-item:hover {
+    background: var(--secondary-color);
+    border-left: 4px solid var(--accent-color);
+    color: white;
+}
+
+.sidebar .active {
+    background: var(--accent-color) !important;
+    border-left: 4px solid #fff;
+}
+
+/* Main Content Area */
+.main-content {
+    margin-left: var(--sidebar-width);
+    padding: 40px;
+}
+
+.navbar-custom {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-left: var(--sidebar-width);
+    padding: 15px 30px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}

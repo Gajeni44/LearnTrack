@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1786907514,
+        "week_number": "2026-33",
+        "class": "Grade 6",
+        "created_date": "2026-08-16",
+        "created_by": "Lebo Mbambo",
+        "archived": false,
+        "attendance": {
+            "Monday": [],
+            "Tuesday": [],
+            "Wednesday": [],
+            "Thursday": [],
+            "Friday": []
+        }
+    },
+    {
+        "id": 1786972441,
+        "week_number": "2026-34",
+        "class": "Grade 6",
+        "created_date": "2026-08-17",
+        "created_by": "Lebo Mbambo",
+        "archived": false,
+        "attendance": {
+            "Monday": [],
+            "Tuesday": [],
+            "Wednesday": [],
+            "Thursday": [],
+            "Friday": []
+        }
+    }
+]

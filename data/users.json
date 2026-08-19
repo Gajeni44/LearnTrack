@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "name": "System Admin",
+        "email": "admin@learntrack.com",
+        "password": "admin123",
+        "role": "sys_admin"
+    },
+    {
+        "id": 1786815871,
+        "name": "Edge Zwane",
+        "email": "admin.hibemandla@gmail.com",
+        "password": "Himadmin@02",
+        "role": "school_admin",
+        "school_id": "1786793471"
+    },
+    {
+        "id": 1786816845,
+        "name": "Lebo Mbambo",
+        "teacher_id": "21546",
+        "employee_number": "202322458",
+        "email": "lebu@gmail.com",
+        "phone": "0768942688",
+        "password": "Mbambo12",
+        "role": "teacher",
+        "grade_assigned": "Grade 6",
+        "subjects": [
+            "Mathematics",
+            "English",
+            "Science",
+            "Social Studies"
+        ],
+        "status": "active"
+    },
+    {
+        "id": 1786900333,
+        "name": "Seer Sima",
+        "email": "princ.hibemandla@gmail.com",
+        "password": "123456",
+        "role": "principal",
+        "school_id": "1786793471"
+    }
+]

@@ -1,0 +1,57 @@
+{
+    "sys_admin": {
+        "name": "System Administrator",
+        "permissions": [
+            "view_dashboard",
+            "manage_teachers",
+            "manage_learners",
+            "mark_attendance",
+            "view_attendance_history",
+            "manage_grades",
+            "view_academic_performance",
+            "manage_announcements",
+            "manage_users",
+            "manage_roles",
+            "backup_restore",
+            "manage_security",
+            "view_system_logs",
+            "manage_schools"
+        ]
+    },
+    "school_admin": {
+        "name": "School Administrator",
+        "permissions": [
+            "view_dashboard",
+            "manage_teachers",
+            "manage_learners",
+            "mark_attendance",
+            "view_attendance_history",
+            "manage_grades",
+            "view_academic_performance",
+            "manage_announcements"
+        ]
+    },
+    "principal": {
+        "name": "Principal",
+        "permissions": [
+            "view_dashboard",
+            "manage_teachers",
+            "manage_learners",
+            "mark_attendance",
+            "view_attendance_history",
+            "manage_grades",
+            "view_academic_performance",
+            "manage_announcements"
+        ]
+    },
+    "teacher": {
+        "name": "Teacher",
+        "permissions": [
+            "view_dashboard",
+            "manage_learners",
+            "mark_attendance",
+            "view_attendance_history",
+            "manage_grades"
+        ]
+    }
+}
